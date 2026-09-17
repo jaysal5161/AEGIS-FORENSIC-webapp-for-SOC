@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Local database data & large binaries
+server/data/
+server/bin/
+
+# Uploads & Temp files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs
+logs/
+server/logs/
+*.log
+npm-debug.log*
+
+# Environment secrets
+.env
+server/.env
+client/.env
+
+# Build outputs
+dist/
+client/dist/
+build/
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
