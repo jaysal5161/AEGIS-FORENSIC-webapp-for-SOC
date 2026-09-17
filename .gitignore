@@ -31,3 +31,9 @@ build/
 Thumbs.db
 .vscode/
 .idea/
+
+# Helper scripts
+push.bat
+push.ps1
+git.bat
+
